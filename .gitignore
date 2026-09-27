@@ -7,3 +7,9 @@
 npm-debug.log*
 .env*.local
 next-env.d.ts.timestamp
+
+# IDE & editors
+.claude/
+.vscode/
+.idea/
+*.swp
