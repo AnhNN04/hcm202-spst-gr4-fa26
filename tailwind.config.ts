@@ -9,15 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Vietnam identity palette
-        'vn-red': '#DA251D',
-        'vn-red-deep': '#8F1713',
-        'vn-gold': '#FFCD00',
-        'vn-gold-antique': '#D4A72C',
-        'vn-ivory': '#F4EBD8',
-        'vn-brown': '#6A4932',
-        'vn-charcoal': '#11100E',
-        'vn-black': '#080808',
+        // Classical Exhibition palette — warm, earthy, dignified
+        'vn-red':         '#a82018',   // son đỏ trầm — dịu hơn, ấm hơn đỏ cờ
+        'vn-red-deep':    '#6e1410',   // đỏ son sẫm
+        'vn-gold':        '#c49a2e',   // vàng antique — trầm, không chói
+        'vn-gold-antique':'#9e7820',   // vàng cổ sâu hơn
+        'vn-ivory':       '#e8d5b0',   // giấy dó ấm — không trắng lạnh
+        'vn-parchment':   '#d4bc90',   // giấy parchment — nền trích dẫn
+        'vn-brown':       '#7a5c3a',   // nâu đất
+        'vn-charcoal':    '#1c1712',   // nâu đen ấm thay charcoal lạnh
+        'vn-black':       '#0f0c09',   // đen ấm — nâu đen, không đen lạnh
+        'vn-sepia':       '#2e2318',   // nâu sepia trung — nền các section
       },
       fontFamily: {
         display: ['var(--font-cormorant)', 'Cormorant Garamond', 'serif'],

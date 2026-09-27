@@ -63,13 +63,13 @@ export default function TimelineIndicator() {
         onMouseLeave={() => setRailHover(false)}
       >
         {/* base rail */}
-        <div className="absolute right-[3px] top-2 h-[calc(100%-16px)] w-px bg-white/15" />
+        <div className="absolute right-[3px] top-2 h-[calc(100%-16px)] w-px" style={{ background: 'rgba(200,168,120,0.35)' }} />
         {/* progress rail */}
         <div
           className="absolute right-[3px] top-2 w-px origin-top bg-vn-gold"
           style={{
             height: `calc((100% - 16px) * ${progress})`,
-            boxShadow: '0 0 8px rgba(255,205,0,0.6)',
+            boxShadow: '0 0 6px rgba(196,154,46,0.5)',
           }}
         />
 
@@ -83,12 +83,12 @@ export default function TimelineIndicator() {
             >
               <span
                 className={[
-                  'font-body text-[11px] uppercase tracking-[0.2em] transition-all duration-500',
+                  'font-body text-[11px] uppercase tracking-[0.2em] transition-all duration-500 drop-shadow-[0_1px_3px_rgba(0,0,0,0.8)]',
                   active
                     ? 'text-vn-gold opacity-100'
                     : railHover
-                      ? 'text-white/45 opacity-100'
-                      : 'text-white/30 opacity-0 group-hover:opacity-100',
+                      ? 'text-vn-ivory/60 opacity-100'
+                      : 'text-vn-ivory/40 opacity-0 group-hover:opacity-100',
                 ].join(' ')}
               >
                 {m.year}
@@ -98,8 +98,9 @@ export default function TimelineIndicator() {
                   'h-[7px] w-[7px] rotate-45 border transition-all duration-500',
                   active
                     ? 'scale-125 border-vn-gold bg-vn-gold'
-                    : 'border-white/40 bg-transparent',
+                    : 'border-vn-ivory/50 bg-transparent',
                 ].join(' ')}
+                style={active ? { boxShadow: '0 0 6px rgba(196,154,46,0.6)' } : {}}
               />
             </a>
           );

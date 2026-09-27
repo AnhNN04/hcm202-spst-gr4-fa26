@@ -41,7 +41,7 @@ export default function VietnamMapSection() {
       className="relative h-[220vh]"
       style={{
         background:
-          'radial-gradient(ellipse at center, #12100e 0%, #080808 70%)',
+          'radial-gradient(ellipse at center, #1e1810 0%, #0f0c09 70%)',
       }}
     >
       <div className="sticky top-0 flex h-screen items-center justify-center overflow-hidden">
@@ -54,7 +54,7 @@ export default function VietnamMapSection() {
             className="absolute inset-0"
             style={{
               background:
-                'radial-gradient(ellipse at center, transparent 40%, rgba(58,13,11,0.7) 100%)',
+                'radial-gradient(ellipse at center, transparent 38%, rgba(40,10,8,0.65) 100%)',
             }}
           />
           {/* gold star of the national flag */}
@@ -66,7 +66,7 @@ export default function VietnamMapSection() {
           className="pointer-events-none absolute h-[80vh] w-[80vh] rounded-full"
           style={{
             background:
-              'radial-gradient(circle, rgba(218,37,29,0.22) 0%, transparent 62%)',
+              'radial-gradient(circle, rgba(168,32,24,0.18) 0%, transparent 62%)',
           }}
         />
 

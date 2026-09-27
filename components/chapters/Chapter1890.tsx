@@ -56,7 +56,7 @@ export default function Chapter1890() {
       className="relative h-[240vh]"
       style={{
         background:
-          'linear-gradient(180deg, #080808 0%, #241812 30%, #3a2a1c 55%, #241812 100%)',
+          'linear-gradient(180deg, #0f0c09 0%, #2a1e12 30%, #3d2b1a 55%, #2a1e12 100%)',
       }}
     >
       <div className="sticky top-0 flex h-screen flex-col items-center justify-center overflow-hidden px-6">

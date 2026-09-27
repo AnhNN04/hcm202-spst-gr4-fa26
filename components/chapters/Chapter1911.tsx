@@ -49,7 +49,7 @@ export default function Chapter1911() {
       className="relative h-[320vh]"
       style={{
         background:
-          'linear-gradient(180deg, #241812 0%, #0d1418 45%, #080808 100%)',
+          'linear-gradient(180deg, #2a1e12 0%, #1a1409 45%, #0f0c09 100%)',
       }}
     >
       <div className="sticky top-0 flex h-screen flex-col items-center justify-center overflow-hidden">

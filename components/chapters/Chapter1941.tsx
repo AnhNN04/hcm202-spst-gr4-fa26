@@ -36,7 +36,7 @@ export default function Chapter1941() {
       className="relative h-[300vh]"
       style={{
         background:
-          'linear-gradient(180deg, #080808 0%, #101a18 40%, #0a1210 100%)',
+          'linear-gradient(180deg, #0f0c09 0%, #1a1a14 40%, #141410 100%)',
       }}
     >
       <div className="sticky top-0 flex h-screen items-center justify-center overflow-hidden">
@@ -54,7 +54,7 @@ export default function Chapter1941() {
           className="pointer-events-none absolute inset-0 z-[1]"
           style={{
             background:
-              'linear-gradient(180deg, rgba(8,10,9,0.9) 0%, rgba(8,10,9,0.55) 28%, rgba(8,10,9,0.2) 52%, rgba(8,10,9,0.35) 75%, rgba(7,11,10,0.92) 100%)',
+              'linear-gradient(180deg, rgba(12,10,7,0.92) 0%, rgba(12,10,7,0.6) 28%, rgba(12,10,7,0.22) 52%, rgba(12,10,7,0.38) 75%, rgba(10,8,5,0.94) 100%)',
           }}
         />
 

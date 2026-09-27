@@ -49,7 +49,7 @@ export default function QuoteSection() {
       ref={root}
       id="quote"
       className="relative h-[220vh]"
-      style={{ backgroundColor: '#F4EBD8' }}
+      style={{ backgroundColor: '#dfc898' }}
     >
       {/* pinned so the quote is held on screen while the auto-scroll lingers */}
       <div className="sticky top-0 flex h-screen items-center justify-center px-6 py-[10vh]">
@@ -70,10 +70,10 @@ export default function QuoteSection() {
           ))}
         </blockquote>
 
-        <p className="qattr mt-14 font-body text-sm uppercase tracking-[0.28em] text-vn-brown">
+        <p className="qattr mt-14 font-body text-sm uppercase tracking-[0.28em] text-vn-charcoal/80">
           — {verifiedQuote.attribution}
         </p>
-        <p className="qattr mt-2 font-body text-[11px] uppercase tracking-[0.2em] text-vn-brown/60">
+        <p className="qattr mt-2 font-body text-[11px] uppercase tracking-[0.2em] text-vn-charcoal/55">
           {verifiedQuote.context}
         </p>
       </div>

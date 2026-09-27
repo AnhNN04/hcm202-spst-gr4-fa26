@@ -25,7 +25,7 @@ interface WordCascadeProps {
  */
 export default function WordCascade({
   words,
-  background = '#080808',
+  background = '#0f0c09',
   accentWords = [],
   id,
   eyebrow,

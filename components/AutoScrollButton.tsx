@@ -205,13 +205,13 @@ export default function AutoScrollButton() {
       <span className="relative flex h-[46px] w-[46px] items-center justify-center">
         {/* progress ring */}
         <svg className="absolute inset-0 -rotate-90" viewBox="0 0 36 36" aria-hidden="true">
-          <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(244,235,216,0.15)" strokeWidth="1.5" />
+          <circle cx="18" cy="18" r="15" fill="rgba(15,12,9,0.55)" stroke="rgba(200,168,120,0.25)" strokeWidth="1.5" />
           <circle
             cx="18"
             cy="18"
             r="15"
             fill="none"
-            stroke="#FFCD00"
+            stroke="#c49a2e"
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeDasharray={RING}
@@ -235,7 +235,7 @@ export default function AutoScrollButton() {
         </span>
       </span>
 
-      <span className="font-body text-[11px] uppercase tracking-[0.24em] text-vn-ivory/70 transition-colors duration-300 group-hover:text-vn-ivory">
+      <span className="font-body text-[11px] uppercase tracking-[0.24em] text-vn-ivory drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)] transition-colors duration-300 group-hover:text-vn-gold">
         {label}
       </span>
     </button>

@@ -45,12 +45,12 @@ export default function Hero() {
           q('.hero-bg'),
           {
             background:
-              'radial-gradient(ellipse at center, #DA251D 0%, #8F1713 55%, #080808 100%)',
+              'radial-gradient(ellipse at center, #8a1a12 0%, #5a1009 55%, #0f0c09 100%)',
             ease: 'none',
           },
           0.58
         )
-        .to(q('.hero-redwash'), { opacity: 1, ease: 'power2.in' }, 0.82);
+        .to(q('.hero-redwash'), { opacity: 0.75, ease: 'power2.in' }, 0.82);
     },
     { scope: root }
   );
@@ -63,7 +63,7 @@ export default function Hero() {
           className="hero-bg will-transform absolute inset-0"
           style={{
             background:
-              'radial-gradient(ellipse at 50% 40%, #1a0b09 0%, #0d0605 55%, #080808 100%)',
+              'radial-gradient(ellipse at 50% 40%, #231810 0%, #160e08 55%, #0f0c09 100%)',
           }}
         />
 
@@ -101,8 +101,8 @@ export default function Hero() {
           <span className="scroll-hint-line" />
         </div>
 
-        {/* final red wash that seals the transition into 1890 */}
-        <div className="hero-redwash pointer-events-none absolute inset-0 z-50 bg-vn-red opacity-0" />
+        {/* final warm red wash that seals the transition into 1890 */}
+        <div className="hero-redwash pointer-events-none absolute inset-0 z-50 opacity-0" style={{ background: 'radial-gradient(ellipse at center, #7a1610 0%, #3d0c08 60%, #0f0c09 100%)' }} />
       </div>
     </section>
   );

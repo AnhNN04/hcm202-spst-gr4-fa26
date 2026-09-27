@@ -60,7 +60,7 @@ export default function NguyenAiQuoc() {
       className="relative overflow-hidden py-[24vh]"
       style={{
         background:
-          'linear-gradient(180deg, #080808 0%, #17110c 50%, #080808 100%)',
+          'linear-gradient(180deg, #0f0c09 0%, #1e1610 50%, #0f0c09 100%)',
       }}
     >
       {/* scattered archival photographs */}
@@ -88,7 +88,7 @@ export default function NguyenAiQuoc() {
                 className="photo-cine absolute inset-0 h-full w-full object-cover"
               />
               {/* ivory border to feel like a print */}
-              <div className="absolute inset-0 border-[6px] border-vn-ivory/85" />
+              <div className="absolute inset-0 border-[5px] border-vn-ivory/70" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-transparent to-transparent" />
               <div className="absolute bottom-0 left-0 p-4">
                 <p className="font-serif-hist text-lg leading-tight text-vn-ivory">

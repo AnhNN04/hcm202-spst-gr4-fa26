@@ -29,7 +29,7 @@ export const MILESTONES: Record<string, Milestone> = {
       'Một tên tuổi mới xuất hiện — Nguyễn Ái Quốc — thay mặt những người An Nam yêu nước gửi bản Yêu cầu đòi quyền tự do, bình đẳng cho dân tộc.',
     image: '/images/photos/m1919.webp',
     symbol: 'letter',
-    background: 'linear-gradient(180deg, #080808 0%, #1a140c 50%, #080808 100%)',
+    background: 'linear-gradient(180deg, #0f0c09 0%, #1e1508 50%, #0f0c09 100%)',
     contain: true, // a document — show it whole, not zoomed
   },
   y1920: {
@@ -42,7 +42,7 @@ export const MILESTONES: Record<string, Milestone> = {
       '“Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta!” — Nguyễn Ái Quốc trở thành người Cộng sản đầu tiên của Việt Nam.',
     image: '/images/photos/m1920.webp',
     symbol: 'flag',
-    background: 'linear-gradient(180deg, #080808 0%, #2a0f0d 55%, #080808 100%)',
+    background: 'linear-gradient(180deg, #0f0c09 0%, #2a0c0a 55%, #0f0c09 100%)',
   },
   y1930: {
     id: 'chapter-1930',
@@ -54,7 +54,7 @@ export const MILESTONES: Record<string, Milestone> = {
       'Nguyễn Ái Quốc chủ trì hội nghị hợp nhất các tổ chức cộng sản — cách mạng Việt Nam từ đây có một đội tiên phong lãnh đạo.',
     image: '/images/photos/m1930.webp',
     symbol: 'sickle',
-    background: 'radial-gradient(ellipse at center, #2a0f0d 0%, #080808 72%)',
+    background: 'radial-gradient(ellipse at center, #2a0c0a 0%, #0f0c09 72%)',
     contain: true, // a painting with many figures — show it whole, not cropped
   },
   y1954: {
@@ -67,6 +67,6 @@ export const MILESTONES: Record<string, Milestone> = {
       '“Lừng lẫy năm châu, chấn động địa cầu” — đập tan ách thống trị của thực dân Pháp, bảo vệ vững chắc nền độc lập vừa giành được.',
     image: '/images/photos/m1954.webp',
     symbol: 'flag',
-    background: 'linear-gradient(180deg, #080808 0%, #12100e 45%, #080808 100%)',
+    background: 'linear-gradient(180deg, #0f0c09 0%, #1a1208 45%, #0f0c09 100%)',
   },
 };
